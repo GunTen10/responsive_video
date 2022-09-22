@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동영상배경, 헤더고정</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/rwd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e2f89fe93c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div id="header_wrap">
+        <header>
+            <h1 class="logo">
+                <a href="#">
+                    <span class="logo01">BIO</span><span class="logo02">NOTE</span>
+                </a>
+            </h1>
+            <nav class="menu_container">
+                <ul id="menu">
+                    <li><a href="#">바이오노트</a></li>
+                    <li><a href="#">제품</a></li>
+                    <li><a href="#">핵심기술</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">투자정보</a></li>
+                    <li><a href="#">채용정보</a></li>
+                </ul>
+            </nav>
+            <div class="search_container">
+                <input type="text">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="global_container">
+                <a href="#"><i class="fa-solid fa-globe"></i></a>
+            </div>
+            <a href="#" class="m_menuBtn">
+                <span class="m_menuBtn_line1"></span>
+                <span class="m_menuBtn_line2"></span>
+            </a>
+        </header>
+    </div>
+    <main>
+        <div class="main_full">
+            <section class="main_visual">
+                <video autoplay muted playsinline loop poster="media/main_visual01.jpg">
+                    <!-- <source src="media/main.webm" type="video/webm"> -->
+                    <source src="media/main.mp4" type="video/mp4">
+                    이 브라우저에서는 동영상을 지원하지 않습니다.
+                </video>
+                <div class="main_text_container">
+                    <p class="main_text">독보적인 기술력으로<br>동물의 건강과 진단을 잇다</p>
+                    <div class="main_text_diagnosis">
+                        <a href="#">회사소개</a>
+                    </div>
+                </div>
+            </section>
+            <section class="con1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Nam eu tortor augue. Nunc mauris mi, aliquet et nunc in, dapibus porta mauris.<br> Nullam a convallis nibh, sed porta elit.<br> Vestibulum ornare nibh nec urna consequat blandit.<br> Aenean vehicula, ligula eget tincidunt viverra, libero lacus fringilla tellus, eget blandit dui urna vitae magna.<br> Nunc vitae ante ornare, congue leo eget, semper dolor.<br> Aliquam tristique ac neque eget viverra.<br> Nulla ultrices dolor id magna tincidunt, at sollicitudin orci luctus.<br> Mauris lorem velit, varius quis metus in, aliquam pellentesque nunc.</p><br>
+                <img src="https://via.placeholder.com/550x150" alt=""><br><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Nam eu tortor augue. Nunc mauris mi, aliquet et nunc in, dapibus porta mauris.<br> Nullam a convallis nibh, sed porta elit.<br> Vestibulum ornare nibh nec urna consequat blandit.<br> Aenean vehicula, ligula eget tincidunt viverra, libero lacus fringilla tellus, eget blandit dui urna vitae magna.<br> Nunc vitae ante ornare, congue leo eget, semper dolor.<br> Aliquam tristique ac neque eget viverra.<br> Nulla ultrices dolor id magna tincidunt, at sollicitudin orci luctus. Mauris lorem velit, varius quis metus in, aliquam pellentesque nunc.</p>
+            </section>
+            <section class="con2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Nam eu tortor augue. <br>Nunc mauris mi, aliquet et nunc in, dapibus porta mauris.<br> Nullam a convallis nibh, sed porta elit.<br> Vestibulum ornare nibh nec urna consequat blandit.<br> Aenean vehicula, ligula eget tincidunt viverra, libero lacus fringilla tellus, eget blandit dui urna vitae magna.<br> Nunc vitae ante ornare, congue leo eget, semper dolor.<br> Aliquam tristique ac neque eget viverra.<br> Nulla ultrices dolor id magna tincidunt, at sollicitudin orci luctus. Mauris lorem velit, varius quis metus in, aliquam pellentesque nunc.</p><br>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>consectetur adipiscing elit</li>
+                    <li>Nam eu tortor augue</li>
+                    <li>Nunc mauris mi</li>
+                    <li>aliquet et nunc in</li>
+                </ul><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Nam eu tortor augue. Nunc mauris mi, aliquet et nunc in, dapibus porta mauris.<br> Nullam a convallis nibh, sed porta elit.<br> Vestibulum ornare nibh nec urna consequat blandit.<br> Aenean vehicula, ligula eget tincidunt viverra, libero lacus fringilla tellus, eget blandit dui urna vitae magna.<br> Nunc vitae ante ornare, congue leo eget, semper dolor.<br> Aliquam tristique ac neque eget viverra.<br> Nulla ultrices dolor id magna tincidunt, at sollicitudin orci luctus. Mauris lorem velit, varius quis metus in, aliquam pellentesque nunc.</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
