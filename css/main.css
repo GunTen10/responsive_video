@@ -5,6 +5,7 @@ body {
     background: #cacaca;
 }
 
+/* header */
 #header_wrap {
     position: fixed;
     top: 0;
@@ -23,6 +24,7 @@ header {
     position: relative;
     margin: 0 5vw;
 }
+/* header-logo */
 .logo {
     position: absolute;
     top: 30px;
@@ -48,6 +50,7 @@ header {
     letter-spacing: 3px;
 }
 
+/* header-menu */
 .menu_container {
     width: 100%;
     text-align: center;
@@ -69,6 +72,7 @@ header {
     color: inherit;
 }
 
+/* header-search */
 .search_container {
     position: absolute;
     right: 100px;
@@ -105,6 +109,7 @@ header {
     transition: all .3s;
 }
 
+/* header-language */
 .global_container {
     position: absolute;
     right: 0;
@@ -120,6 +125,7 @@ header {
 .global_container a:hover {
     color: #568EC5;
 }
+/* header-menu_button */
 .m_menuBtn {
     display: none;
     position: absolute;
@@ -152,9 +158,7 @@ header {
     top: 8px;
 }
 
-main {}
-.main_full {}
-
+/* main */
 .main_visual {
     background: seagreen;
     width: 100%;
@@ -173,7 +177,6 @@ main {}
     transform: translateY(-50%);
     text-align: center;
 }
-.main_text_left {}
 .main_text {
     color: #fff;
     font-size: 50px;
@@ -186,10 +189,52 @@ main {}
 }
 .main_text_diagnosis a {}
 
+/* main-contents */
 .con1, .con2 {
     width: 1240px;
     margin: 50px auto 30px;
     padding: 30px;
     border: 1px solid #cacaca;
     overflow-x: hidden;
+}
+
+/* side_menu */
+aside {
+    position: fixed;
+    left: 60px;
+    bottom: 60px;
+    z-index: 20000;
+}
+aside ul {  
+    background: #fff;
+    border-radius: 50px;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+aside li {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+aside li:last-child {
+    border: none;
+}
+aside a {
+    font-size: 12px;
+}
+aside img {
+    display: block;
+    margin: 0 auto;
+}
+aside .top {
+    display: block;
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(to bottom right, #0053d8, #568EC5);
+    border-radius: 50%;
+    text-align: center;
+}
+aside .top a {
+    color: #fff;
+    line-height: 110px;
 }
