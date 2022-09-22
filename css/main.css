@@ -210,6 +210,7 @@ aside ul {
     border-radius: 50px;
     padding: 20px 0;
     margin-bottom: 10px;
+    width: 80px;
 }
 aside li {
     border-bottom: 1px solid #ccc;
@@ -232,13 +233,13 @@ aside img {
 }
 aside .top {
     display: block;
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     background: linear-gradient(to bottom right, #0053d8, #568EC5);
     border-radius: 50%;
     text-align: center;
 }
 aside .top a {
     color: #fff;
-    line-height: 110px;
+    line-height: 80px;
 }
