@@ -216,6 +216,9 @@ aside li {
     padding: 20px 0;
     text-align: center;
 }
+aside li:hover img {
+    transform: translateY(-10px);
+}
 aside li:last-child {
     border: none;
 }
@@ -225,6 +228,7 @@ aside a {
 aside img {
     display: block;
     margin: 0 auto;
+    transition: all .7s;
 }
 aside .top {
     display: block;
