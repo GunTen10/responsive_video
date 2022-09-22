@@ -94,6 +94,9 @@
         color: #568EC5;
         background: #fff;
     }
+    aside {
+        display: none;
+    }
 }
 /******************* 600px *******************/
 @media (max-width: 600px) {
